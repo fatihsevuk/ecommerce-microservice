@@ -2,9 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e6fbec6-c5e1-4cdb-ac4c-627caf9840da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ecommerce-microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cart-service/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/config/ModelMapperConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/model/BaseResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/java/com/ifelseco/stockapi/StockApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/java/com/ifelseco/stockapi/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/java/com/ifelseco/stockapi/entity/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/java/com/ifelseco/stockapi/repository/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/java/com/ifelseco/stockapi/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/java/com/ifelseco/stockapi/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-api/src/test/java/com/ifelseco/stockapi/StockApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/StockApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/config/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/controller/StockOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/entity/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/model/BaseResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/model/ProductStockModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/repository/StockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/java/com/ifelseco/stock/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock-service/src/test/java/com/ifelseco/stock/StockApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/CartMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/CartServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/controller/CartController.java" afterDir="false" />
@@ -25,7 +72,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cart-service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1p7Gint2DONDPGBgkd0NVqm3vGG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614526844580</updated>
-      <workItem from="1614526847561" duration="8095000" />
+      <workItem from="1614526847561" duration="8337000" />
     </task>
     <servers />
   </component>
