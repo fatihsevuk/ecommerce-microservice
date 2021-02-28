@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e6fbec6-c5e1-4cdb-ac4c-627caf9840da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cart-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/config/ModelMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/model/BaseResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/CartMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/CartServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/controller/CartOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/controller/CartOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/entity/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/entity/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/model/CartItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/model/CartItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/model/CartModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/model/CartModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/java/com/ifelseco/cart/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/cart-service" />
+  </component>
+  <component name="ProjectId" id="1p7Gint2DONDPGBgkd0NVqm3vGG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cart-service" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e6fbec6-c5e1-4cdb-ac4c-627caf9840da" name="Default Changelist" comment="" />
+      <created>1614526844580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614526844580</updated>
+      <workItem from="1614526847561" duration="8095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="767" y="557" width="424" height="491" key="FileChooserDialogImpl" timestamp="1614528765448">
+      <screen x="48" y="213" width="1872" height="1173" />
+    </state>
+    <state x="767" y="557" width="424" height="491" key="FileChooserDialogImpl/48.213.1872.1173/3120.281.1366.768/1920.0.1200.1920@48.213.1872.1173" timestamp="1614528765448" />
+    <state x="629" y="408" width="1027" height="783" key="find.popup" timestamp="1614550087095">
+      <screen x="48" y="213" width="1872" height="1173" />
+    </state>
+    <state x="629" y="408" width="1027" height="783" key="find.popup/48.213.1872.1173/3120.281.1366.768/1920.0.1200.1920@48.213.1872.1173" timestamp="1614550087095" />
+  </component>
+</project>

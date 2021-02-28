@@ -1,0 +1,109 @@
+version: '3.7'
+
+# applications
+services:
+  stock-api:
+    build:
+      context: stock-api
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    depends_on:
+      - stock-api-db # Pass environment variables to the service
+      SPRING_DATASOURCE_URL: jdbc:mysql://stock-api-db:3306/stock-api-db?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      SPRING_DATASOURCE_USERNAME: user1
+      SPRING_DATASOURCE_PASSWORD: pass1
+    networks:
+      - ecommerce
+
+  stock-service:
+
+    build:
+      context: stock-service
+      dockerfile: Dockerfile
+    ports:
+      - "8181:8181"
+    restart: always
+    depends_on:
+      - stock-api
+      - stock-service-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://stock-service-db:3306/stock-service-db?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      SPRING_DATASOURCE_USERNAME: user1
+      SPRING_DATASOURCE_PASSWORD: pass1
+    networks:
+      - ecommerce
+
+
+  cart-service:
+    build:
+      context: cart-service
+      dockerfile: Dockerfile
+    ports:
+      - "8282:8282"
+    restart: always
+    depends_on:
+      - cart-service-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://cart-service-db:3306/cart-service-db?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      SPRING_DATASOURCE_USERNAME: user1
+      SPRING_DATASOURCE_PASSWORD: pass1
+    networks:
+      - ecommerce
+
+  # Database Service (Mysql)
+  stock-api-db:
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_DATABASE: stock-api-db
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: pass1
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - stock-api-db-data:/var/lib/mysql
+    networks:
+      - ecommerce
+
+  stock-service-db:
+    image: mysql:5.7
+    ports:
+      - "3307:3306"
+    restart: always
+    environment:
+      MYSQL_DATABASE: stock-service-db
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: pass1
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - stock-service-db-data:/var/lib/mysql
+    networks:
+      - ecommerce
+
+  cart-service-db:
+    image: mysql:5.7
+    ports:
+      - "3308:3306"
+    restart: always
+    environment:
+      MYSQL_DATABASE: cart-service-db
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: pass1
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - cart-service-db-data:/var/lib/mysql
+    networks:
+      - ecommerce
+
+# Volumes
+volumes:
+  stock-api-db-data:
+  stock-service-db-data:
+  cart-service-db-data:
+
+# Networks
+networks:
+  ecommerce:
